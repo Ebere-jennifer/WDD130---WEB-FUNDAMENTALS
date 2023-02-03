@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto+Slab&display=swap');
 
-.content {
+#content {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -31,7 +31,7 @@ main section {
 
 body {
   background-color: #219ebc;
-  font-family: Roboto Slab, Helvetica, sans-serif;
+  font-family: "Roboto Slab", Helvetica, sans-serif;
   font-size: 22px;
   padding: 0;
   margin: 0;
@@ -79,7 +79,7 @@ footer {
 
 .home-title {
   color: white;
-  font-family: "Berkshire Swash";
+  font-family: "Berkshire Swash", Arial, sans-serif;
   font-size: 2em;
   margin-top: 10px;
 }
@@ -98,7 +98,7 @@ h2 {
 
 .msg h2 {
   color: #396E94;
-  font-family: "Berkshire Swash";
+  font-family: "Berkshire Swash", Arial, sans-serif;
 }
 
 .msg p {
