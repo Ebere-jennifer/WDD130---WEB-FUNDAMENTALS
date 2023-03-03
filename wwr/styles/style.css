@@ -23,6 +23,121 @@ nav a {
   margin-top: -100px;
 }
 
+#new-hero{
+  display: flex;
+  grid-template-columns:   1fr 3fr 1fr;
+}
+
+
+.question{
+  font-family: "Berkshire Swash", Arial, sans-serif;
+  align-items: center;
+}
+
+.big-box{
+  display: grid;
+  grid-template-columns: 4fr;
+  margin-bottom: 30px;
+}
+
+.heading{
+  margin: 5%;
+  text-align: justify;
+}
+
+.quote{
+  font-weight: bolder;
+  text-align: justify;
+}
+
+.story{
+  text-align: justify;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.quote1{
+  font-weight: bolder;
+  text-align: justify;
+  margin-left: -720px;
+  margin-top: -450px;
+}
+
+.story1{
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: -747px;
+  white-space: pre-line;
+  padding-bottom: 16%;
+  margin-bottom: 16%;
+}
+
+.quote2{
+  font-weight: bolder;
+  text-align: justify;
+  margin-top: -50px;
+}
+
+.story2{
+  margin-left: 1%;
+  font-size: 22px;
+  line-height: 1.5em;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+.quote3{
+  font-weight: bolder;
+  text-align: justify;
+  margin-left: -687px;
+  margin-top: -710px;
+  margin-bottom: 3%;
+  
+  
+}
+
+.story3{
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: -750px;
+  white-space: pre-line;
+  margin-bottom: 15%;
+  
+  
+}
+
+.quote4{
+  font-weight: bolder;
+  text-align: justify;
+  margin-top: -210px;
+  
+}
+
+.story4{
+  margin-left: 2%;
+  font-size: 22px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.quote5{
+  font-weight: bolder;
+  text-align: justify;
+  margin-left: -720px;
+  margin-top: -300px;
+ 
+}
+
+.story5{
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-left: -750px;
+  white-space: pre-line;
+}
+
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
