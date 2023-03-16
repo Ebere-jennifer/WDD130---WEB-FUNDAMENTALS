@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto+Slab&display=swap');
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #afafdc;
+  font-family: "Roboto Slab", Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: #396E94;
+  text-decoration: none;
+  padding: 35px;
+}
+
+.paragraph {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.horizontal {
+  width: 100%;
+  display: flex;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.vertical {
+  width: 100%;
+  flex: 50%;
+  padding: 10px;
+  margin-left: -10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.message h2 {
+  margin-top: 50px;
+  font-family: "Berkshire Swash", Arial, sans-serif;
+}
+
+.message {
+  color: white;
+  text-align: justify;
+  line-height: 1.7em;
+  font-size: 22px;
+}
+
+.text {
+  color: white;
+  text-align: justify;
+  line-height: 1.7em;
+  font-size: 22px;
+}
+
+.text h2 {
+  margin-top: 50px;
+  font-family: "Berkshire Swash", Arial, sans-serif;
+}
+
+header {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 150px auto;
+  padding: 3px;
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: #8a84e2;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: -18px;
+  margin-top: -14px;
+  margin-left: -4px;
+  border-radius: 7%;
+}
+
+#logo_link {
+  justify-self: auto;
+  align-self: auto;
+}
+
+footer {
+  color: #396E94;
+  background-color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #396E94;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer p {
+  font-size: 1.0em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer .social-handle img {
+  padding-top: 15px;
+}
+
+.vertical {
+  border: none#afafdc;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #afafdc;
+}
+
+.vertical:hover {
+  opacity: .5;
+  transform: scale(1.1);
+}
+
+.social-handle {
+  border: none white;
+  transition: transform .4s;
+  box-shadow: 5px 5px 5px white;
+}
+
+.social-handle:hover {
+  opacity: .5;
+  transform: scale(1.1);
+}
