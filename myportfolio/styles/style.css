@@ -29,7 +29,6 @@ nav a {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  padding: 1em;
 }
 
 .horizontal {
@@ -60,6 +59,7 @@ h2 {
   text-align: justify;
   line-height: 1.7em;
   font-size: 22px;
+  padding: 1em;
 }
 
 .text {
@@ -67,6 +67,7 @@ h2 {
   text-align: justify;
   line-height: 1.7em;
   font-size: 22px;
+  padding: 1em;
 }
 
 .text h2 {
