@@ -29,6 +29,7 @@ nav a {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  padding: 1em;
 }
 
 .horizontal {
@@ -91,7 +92,8 @@ nav a:hover {
   margin-bottom: -18px;
   margin-top: -14px;
   margin-left: -4px;
-  border-radius: 7%;
+  border-radius: 5%;
+  height: auto;
 }
 
 #logo_link {
